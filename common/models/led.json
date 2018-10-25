@@ -1,0 +1,35 @@
+{
+  "name": "Led",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "status": {
+      "type": "object",
+      "required": true
+    },
+    "light": {
+      "type": "string",
+      "required": true,
+      "default": "off"
+    },
+    "color": {
+      "type": "string",
+      "required": true
+    },
+    "homeId": {
+      "type": "object",
+      "required": true
+    },
+    "control": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

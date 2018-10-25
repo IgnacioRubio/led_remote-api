@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongoLocal": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "led-remote",
+    "user": "${MONGO_LOCAL_USER}",
+    "password": "${MONGO_LOCAL_PASS}",
+    "name": "mongoLocal",
+    "connector": "mongodb"
+  }
+}
